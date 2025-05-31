@@ -8,31 +8,32 @@ const projects = [
     name: "solar hardware project",
     year: "Mar2024",
     align: "right",
-    image: "../../public/images/solar.png",
+    image: "/images/solar.png",
     link: "#",
   },
   {
     name: "DreamEvent – Elegant Event Planning Website",
-    year: "may 2024",
+    year: "May 2024",
     align: "left",
-    image: "../../public/images/event.png",
+    image: "/images/event.png",
     link: "#",
   },
   {
-    name: "restuarant website",
-    year: "jun 2024",
+    name: "restaurant website",
+    year: "Jun 2024",
     align: "right",
-    image: "../../public/images/rest.png",
+    image: "/images/rest.png",
     link: "#",
   },
   {
     name: "bus pass management system",
-    year: "feb 2024",
+    year: "Feb 2024",
     align: "left",
-    image: "../../public/images/bus.png",
+    image: "/images/bus.png",
     link: "#",
   },
 ];
+
 
 const ProjectsMain = () => {
   return (
