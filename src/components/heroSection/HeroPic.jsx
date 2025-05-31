@@ -9,16 +9,16 @@ const HeroPic = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
-      className=" h-full flex items-center justify-center "
+      className="h-full flex items-center justify-center relative"
     >
       <img
-        src="../../public/images/aditya.png"
-        alt="Abdelrahman Qassem"
+        src="/images/aditya.png"
+        alt="aditya"
         className="max-h-[450px] w-auto"
       />
 
-      <div className=" absolute -z-10 flex justify-center items-center animate-pulse ">
-        <PiHexagonThin className=" md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite] " />
+      <div className="absolute -z-10 flex justify-center items-center animate-pulse">
+        <PiHexagonThin className="md:h-[90%] sm:h-[120%] min-h-[600px] w-auto text-cyan blur-md animate-[spin_20s_linear_infinite]" />
       </div>
     </motion.div>
   );
